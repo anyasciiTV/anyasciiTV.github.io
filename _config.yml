@@ -1,6 +1,6 @@
 title: "The Command Line Chronicles"
 author: "Anyascii"
-description: "Powered by <b style=\"color: #f45;\">&anyascii/b>"
+description: "Powered by anyascii"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -20,6 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home"}
   - {file: "about.md", title: "About"}
   - {file: "Blog", title: "Blog", file: "/blog.md"}
+  - {file: "Posts", title: "Posts", file: "/_posts"}
   #- {image: }
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
