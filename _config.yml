@@ -24,7 +24,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:anyascii@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/anyasciiTV"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/4ny4scii}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/4ny4scii"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
