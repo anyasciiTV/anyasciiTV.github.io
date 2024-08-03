@@ -1,19 +1,19 @@
 ---
 layout: default
 ---
-
-<article>
+<article style="padding: 20px;">
   <header>
-    <h1 style="text-align: center; margin-bottom: 20px;">
-      #<a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-    </h1>
+  <h1 style="text-align: center; margin-bottom: 20px;">
+    <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+  </h1>
   </header>
   {% include meta.html post-page %}
   {{ content }}
   {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>
-    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
+  {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
     {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
     <noscript>Please enable JavaScript to view comments.</noscript>
   {% endif %}
+  #<header><h1><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1></header>
 </article>
