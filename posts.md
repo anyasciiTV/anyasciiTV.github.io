@@ -3,10 +3,8 @@ layout: default
 title: "Posts"
 ---
 
-# Blog Posts
-
 <div style="text-align: center; margin-top; 50px;">
-  <h1 style="font-size: 2.5em;">Blog Ports</h1>
+  <h1 style="font-size: 2.5em;">Blog Posts</h1>
 
 {% for post in site.posts %}
   <div style="margin-top: 20px; text-align: left;">
