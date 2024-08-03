@@ -2,7 +2,7 @@
 layout: default
 ---
 <article>
-  {% include meta.html post=page %}
+  {% include meta.html %}
   {{ content }}
   {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>
