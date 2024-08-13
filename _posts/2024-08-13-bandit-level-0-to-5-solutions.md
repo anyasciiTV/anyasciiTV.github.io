@@ -9,7 +9,7 @@ categories: bandit solutions
 
 Well, good afternoon, good evening, and good night everyone, wherever you are in the world. Welcome to the first installation of my OverTheWire Bandit Solutions guide: *A Linux Admin's Guide to Solving OverTheWire's Bandit*. You can call me Anya, and I will be beginning with **level 0 up to level 5** of Bandit in this installment. There's a lot of good stuff coming up—we're going to learn about **ls, cat, and find**. Let's forge ahead and finish up Bandit!
 
-## Bandit Level 17 to 18
+## Bandit Level 0 to 1
 
 ### Level Goal
 
